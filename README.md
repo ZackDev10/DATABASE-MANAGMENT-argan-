@@ -22,30 +22,9 @@ chmod +x deploy.sh
 # Run the deployment
 ./deploy.sh
 ```
-argan-db/
-├── setup.sql              # Main orchestration script
-├── deploy.sh              # Automated deployment script
-├── README.md              # This documentation
-│
-├── schema/
-│   ├── 01_tables.sql      # Table creation (16 tables)
-│   ├── 02_constraints.sql # Foreign keys & check constraints
-│   └── 03_indexes.sql     # Performance indexes
-│
-├── views/
-│   └── 01_views.sql       # Reporting views (5 views)
-│
-├── functions/
-│   └── 01_functions.sql   # Stored functions (4 functions)
-│
-├── triggers/
-│   └── 01_triggers.sql    # Automatic triggers (6 triggers)
-│
-├── data/
-│   └── 01_seed.sql        # Sample data with realistic values
-│
-└── security/
-    └── 01_roles.sql       # User roles, permissions & RLS
+### 📁 Project Structure
+
+<img width="670" height="505" alt="image" src="https://github.com/user-attachments/assets/7f813392-004c-4989-b9f1-94d83af87ee9" />
 
 ## 🔐 Security Features
 
